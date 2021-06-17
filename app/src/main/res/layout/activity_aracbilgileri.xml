@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context=".Aracbilgileri" android:background="#007580">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/aracbilgisitview" android:text="ARAC BILGILERINI GIRINIZ" android:gravity="center"
+        android:layout_marginTop="25dp" android:background="#fed049" android:textStyle="bold|italic" >
+
+    </TextView>
+
+    <EditText android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/baslik" android:hint="Ilan baslik bilgisini giriniz">
+
+    </EditText>
+    <EditText android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/aciklama" android:hint="Ilan aciklama bilgisini giriniz">
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/ilanturutext" android:text="Ilan Turu"></TextView>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/ilanturu"></Spinner>
+
+
+
+    <EditText android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/marka" android:hint="Marka bilgisini giriniz">
+
+    </EditText>
+    <EditText android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/model" android:hint="Model bilgisini giriniz">
+
+    </EditText>
+    <EditText android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/tarih" android:hint="Tarih bilgisini giriniz">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/fiyat" android:hint="Fiyati giriniz">
+
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent" android:layout_marginTop="35dp"
+        android:layout_height="wrap_content" android:id="@+id/ileributon" android:text="ileri" android:background="@drawable/pressed"></androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

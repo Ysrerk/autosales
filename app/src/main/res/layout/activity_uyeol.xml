@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:background="#8ac4d0"
+    tools:context=".Uyeol">
+    <ImageView android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" android:id="@+id/uyelikresim" android:src="@drawable/membercard"></ImageView>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/uyeemail" android:hint="Email adresinizi yaziniz"
+        android:textColorHint="#000" android:layout_marginTop="25dp">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Sifrenizi yaziniz" android:id="@+id/uyesifre" android:textColorHint="#000"
+        android:layout_marginTop="10dp"></EditText>
+
+    <androidx.appcompat.widget.AppCompatButton android:layout_marginTop="20dp"
+        android:layout_width="match_parent" android:background="@drawable/pressed"
+        android:layout_height="wrap_content" android:id="@+id/kayitolbtn" android:text="kayit ol"></androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent" android:background="@drawable/pressed" android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" android:id="@+id/temizlebtn" android:text="temizle"></androidx.appcompat.widget.AppCompatButton>
+
+
+
+</LinearLayout>

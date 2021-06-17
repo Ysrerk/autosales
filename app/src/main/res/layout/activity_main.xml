@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:background="#053542"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp" android:id="@+id/siliderlayout" android:orientation="vertical">
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:background="#BFE6EC"></androidx.viewpager.widget.ViewPager>
+
+
+
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/cikis" android:text="Cikis">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+ <LinearLayout
+     android:layout_width="match_parent" android:orientation="vertical" android:layout_below="@+id/siliderlayout"
+     android:layout_height="match_parent" android:id="@+id/menulayout">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" android:orientation="horizontal">
+
+         <androidx.appcompat.widget.AppCompatButton
+             android:layout_width="0dp" android:layout_weight="1"  android:drawableTop="@drawable/satilikaraba" android:layout_margin="5dp" android:text="satilik ilanlar"
+             android:layout_height="wrap_content" android:id="@+id/satilikbutton" android:background="@drawable/butonsback">
+
+         </androidx.appcompat.widget.AppCompatButton>
+         <androidx.appcompat.widget.AppCompatButton
+             android:layout_width="0dp" android:layout_weight="1"  android:drawableTop="@drawable/kiralikaraba" android:layout_margin="5dp" android:id="@+id/kiralikbutton" android:text="kiralik ilanlar"
+             android:layout_height="wrap_content" android:background="@drawable/butonsback">
+
+         </androidx.appcompat.widget.AppCompatButton>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" android:orientation="horizontal">
+
+         <androidx.appcompat.widget.AppCompatButton
+             android:layout_width="0dp" android:layout_weight="1"  android:drawableTop="@drawable/duyuruu" android:layout_margin="5dp" android:id="@+id/duyurularbutton" android:text="duyurular"
+             android:layout_height="wrap_content" android:background="@drawable/butonsback">
+
+         </androidx.appcompat.widget.AppCompatButton>
+         <androidx.appcompat.widget.AppCompatButton
+             android:layout_width="0dp" android:layout_weight="1" android:layout_margin="5dp" android:id="@+id/iletisimbutton"  android:drawableTop="@drawable/iletim" android:text="iletisim"
+             android:layout_height="wrap_content" android:background="@drawable/butonsback" >
+
+         </androidx.appcompat.widget.AppCompatButton>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"  >
+
+         <TextView
+             android:layout_width="match_parent" android:textColor="#ffff" android:textStyle="bold"
+             android:layout_height="wrap_content" android:id="@+id/gelenemail"></TextView>
+     </LinearLayout>
+
+
+
+ </LinearLayout>
+
+</RelativeLayout>

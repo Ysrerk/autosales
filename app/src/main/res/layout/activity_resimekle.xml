@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context=".Resimekle">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp" android:id="@+id/ilanresim"></ImageView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent" android:layout_marginTop="30dp" android:background="@drawable/pressed"
+        android:layout_height="wrap_content" android:id="@+id/resimsec" android:text="REsim sec"></androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent" android:layout_marginTop="30dp"
+        android:layout_height="wrap_content" android:id="@+id/resimekle" android:background="@drawable/pressed" android:text="Resim ekle"></androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/ilankaydet" android:background="@drawable/pressed" android:text="Ilan Kaydet" android:layout_marginTop="30dp"></androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

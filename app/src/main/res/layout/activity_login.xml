@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:background="#074354"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context=".Login">
+    <EditText
+        android:layout_width="match_parent" android:layout_marginTop="90dp"
+        android:hint="Email adresi" android:textColorHint="#000000" android:inputType="textEmailAddress"
+        android:layout_height="50dp" android:id="@+id/email" android:background="#BFE6EC"></EditText>
+    <EditText
+        android:layout_width="match_parent" android:layout_marginTop="20dp" android:inputType="textPassword"
+        android:layout_height="50dp" android:id="@+id/password" android:background="#BFE6EC" android:hint="Password" android:textColorHint="#000000"></EditText>
+
+    <ImageButton
+        android:layout_width="match_parent" android:layout_marginTop="10dp" android:id="@+id/loginbutton"
+        android:layout_height="50dp" android:src="@drawable/login" ></ImageButton>
+
+    <androidx.appcompat.widget.AppCompatButton android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/uyeol" android:text="uye ol" android:background="@drawable/butonsback"></androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>
